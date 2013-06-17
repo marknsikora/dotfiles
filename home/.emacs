@@ -6,6 +6,10 @@
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
+;; Enable copy pase between x11 and emacs
+(setq x-select-enable-clipboard t)
+(setq interprogram-paste-function 'x-cut-buffer-or-selection-value)
+
 ;; Show line and column numbers
 (line-number-mode 1)
 (setq column-number-mode t)
