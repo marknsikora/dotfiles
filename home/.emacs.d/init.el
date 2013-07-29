@@ -48,3 +48,7 @@
       cperl-continued-statement-offset 4
       cperl-indent-parens-as-block t
       cperl-tab-always-indent t)
+
+;; PRETTY COLOURS!!!
+(add-to-list 'custom-theme-load-path "~/.emacs.d/emacs-color-theme-solarized")
+(load-theme 'solarized-light t)
