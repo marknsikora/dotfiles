@@ -24,6 +24,9 @@ set number
 set laststatus=2
 set noshowmode
 
+" Enable the wild menu
+set wildmenu
+
 " Keep cursor away from edges of screen.
 set so=3
 
@@ -62,3 +65,6 @@ if exists('+clipboard')
         set clipboard=unnamed
     endif
 endif
+
+" Fix behaviour of backspace
+set backspace=indent,eol,start
