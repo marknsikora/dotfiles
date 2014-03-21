@@ -68,3 +68,7 @@ endif
 
 " Fix behaviour of backspace
 set backspace=indent,eol,start
+
+" Per-directory .vimrc files
+set exrc
+set secure
