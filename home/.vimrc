@@ -23,6 +23,10 @@ set number
 " Powerbar settings
 set laststatus=2
 set noshowmode
+let g:airline_theme='powerlineish'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_section_z=''
 
 " Enable the wild menu
 set wildmenu
