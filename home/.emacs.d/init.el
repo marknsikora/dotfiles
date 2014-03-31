@@ -17,7 +17,7 @@
 ;; Enabled syntax highlighting
 (global-font-lock-mode 1)
 (setq font-lock-maximum-decoration t
-	  font-lock-maximum-size nil)
+      font-lock-maximum-size nil)
 (setq indicate-empty-lines t)
 
 ;; Show matching parens
