@@ -4,7 +4,6 @@ call pathogen#infect()
 call pathogen#helptags()
 
 " Colorscheme settings.
-syntax on
 if has('gui_running')
     set background=dark
     colorscheme solarized
@@ -12,38 +11,20 @@ endif
 
 set guifont=Source\ Code\ Pro\ 12
 
-filetype plugin indent on
-
-" UTF8 or die.
-set encoding=utf8
-
 " Numbered lines.
 set number
 
 " Powerbar settings
-set laststatus=2
 set noshowmode
 let g:airline_theme='powerlineish'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
 let g:airline_section_z=''
 
-" Enable the wild menu
-set wildmenu
-
-" Keep cursor away from edges of screen.
-set so=3
-
-" Long lines
-set display=lastline
-
 " Tab settings.
 set expandtab
 set shiftwidth=4
-set ts=4
-
-" Buffer settings
-set autoread
+set tabstop=4
 
 " Make trailing whitespace annoyingly highlighted.
 highlight ExtraWhitespace ctermbg=red guibg=red
@@ -56,7 +37,6 @@ if v:version >= 702
 endif
 
 " Search settings
-set incsearch
 set ignorecase
 set smartcase
 set hlsearch
@@ -69,9 +49,6 @@ if exists('+clipboard')
         set clipboard=unnamed
     endif
 endif
-
-" Fix behaviour of backspace
-set backspace=indent,eol,start
 
 " Per-directory .vimrc files
 set exrc
