@@ -24,7 +24,6 @@ let g:airline_section_z=''
 " Tab settings.
 set expandtab
 set shiftwidth=4
-set tabstop=4
 
 " Make trailing whitespace annoyingly highlighted.
 highlight ExtraWhitespace ctermbg=red guibg=red
