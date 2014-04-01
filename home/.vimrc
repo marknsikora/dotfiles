@@ -1,7 +1,6 @@
 " Setup pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
 
 " Colorscheme settings.
 if has('gui_running')
