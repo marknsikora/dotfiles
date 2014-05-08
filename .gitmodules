@@ -40,3 +40,6 @@
 [submodule "home/.vim/bundle/tcomment_vim"]
 	path = home/.vim/bundle/tcomment_vim
 	url = https://github.com/tomtom/tcomment_vim
+[submodule "home/.vim/bundle/tabular"]
+	path = home/.vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
