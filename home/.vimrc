@@ -2,6 +2,8 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+runtime! plugin/sensible.vim
+
 " Colorscheme settings.
 if has('gui_running')
     set background=dark
