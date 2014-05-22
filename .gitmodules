@@ -78,3 +78,19 @@
 	path = home/.vim/bundle/vim-argumentative
 	url = https://github.com/PeterRincker/vim-argumentative.git
 	branch = master
+[submodule "home/.vim/bundle/tlib_vim"]
+	path = home/.vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+	branch = master
+[submodule "home/.vim/bundle/vim-addon-mw-utils"]
+	path = home/.vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+	branch = master
+[submodule "home/.vim/bundle/vim-snipmate"]
+	path = home/.vim/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+	branch = master
+[submodule "home/.vim/bundle/vim-snippets"]
+	path = home/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
+	branch = master
