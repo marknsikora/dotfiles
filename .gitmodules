@@ -74,3 +74,7 @@
 	path = home/.vim/bundle/vim-argumentative
 	url = https://github.com/PeterRincker/vim-argumentative.git
 	branch = master
+[submodule "prelude"]
+	path = prelude
+	url = https://github.com/bbatsov/prelude.git
+	branch = master
