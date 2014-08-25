@@ -3,4 +3,4 @@
 
 (add-hook 'cperl-mode-hook 'personal-cperl-mode-defaults t)
 
-(provide 'perl)
+(provide 'personal-perl)

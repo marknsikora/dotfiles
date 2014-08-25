@@ -2,4 +2,4 @@
 (prelude-require-package 'base16-theme)
 ;; (load-theme 'solarized-dark t)
 
-(provide 'theme)
+(provide 'personal-theme)
