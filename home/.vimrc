@@ -1,8 +1,37 @@
-" Setup pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-runtime! plugin/sensible.vim
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+
+" Good defaults
+Plugin 'tpope/vim-sensible'
+
+Plugin 'AndrewRadev/splitjoin.vim.git'
+Plugin 'Lokaltog/vim-easymotion.git'
+Plugin 'PeterRincker/vim-argumentative.git'
+Plugin 'bling/vim-airline.git'
+Plugin 'godlygeek/tabular.git'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/syntastic.git'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-endwise.git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-unimpaired'
+
+" Color schemes
+Plugin 'chriskempson/base16-vim'
+Plugin 'tomasr/molokai'
+Plugin 'altercation/vim-colors-solarized'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
 
 " Colorscheme settings.
 if has('gui_running')
