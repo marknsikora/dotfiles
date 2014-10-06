@@ -39,7 +39,7 @@ if has('gui_running')
     colorscheme solarized
 endif
 
-set guifont=Source\ Code\ Pro\ 12
+set guifont=DejaVu\ Sans\ Mono\ 12
 
 " Numbered lines.
 set number
