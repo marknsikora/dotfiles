@@ -5,8 +5,6 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
-
 " Good defaults
 Plugin 'tpope/vim-sensible'
 
