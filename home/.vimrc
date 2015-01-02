@@ -11,7 +11,6 @@ Plugin 'tpope/vim-sensible'
 Plugin 'AndrewRadev/splitjoin.vim.git'
 Plugin 'Lokaltog/vim-easymotion.git'
 Plugin 'PeterRincker/vim-argumentative.git'
-Plugin 'bling/vim-airline.git'
 Plugin 'godlygeek/tabular.git'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/syntastic.git'
@@ -27,6 +26,13 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'guns/vim-clojure-static'
 Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-sexp'
+
+" Powerline
+Plugin 'bling/vim-airline.git'
+let g:airline_theme='powerlineish'
+let g:airline_left_sep=''
+let g:airline_right_sep=''
+let g:airline_section_z=''
 
 " Color schemes
 Plugin 'chriskempson/base16-vim'
@@ -48,10 +54,6 @@ set number
 
 " Powerbar settings
 set noshowmode
-let g:airline_theme='powerlineish'
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-let g:airline_section_z=''
 
 " Tab settings.
 set expandtab
