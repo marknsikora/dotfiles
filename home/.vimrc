@@ -23,6 +23,11 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 
+" Clojure
+Plugin 'guns/vim-clojure-static'
+Plugin 'tpope/vim-fireplace'
+Plugin 'guns/vim-sexp'
+
 " Color schemes
 Plugin 'chriskempson/base16-vim'
 Plugin 'tomasr/molokai'
