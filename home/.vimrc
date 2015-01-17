@@ -36,13 +36,12 @@ Plugin 'altercation/vim-colors-solarized'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Colorscheme settings.
+" GUI Settings
 if has('gui_running')
     set background=dark
     colorscheme solarized
+    set guifont=DejaVu\ Sans\ Mono\ 12
 endif
-
-set guifont=DejaVu\ Sans\ Mono\ 12
 
 " Numbered lines.
 set number
