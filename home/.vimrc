@@ -8,19 +8,36 @@ call vundle#begin()
 " Good defaults
 Plugin 'tpope/vim-sensible'
 
-Plugin 'AndrewRadev/splitjoin.vim.git'
-Plugin 'Lokaltog/vim-easymotion.git'
-Plugin 'PeterRincker/vim-argumentative.git'
-Plugin 'godlygeek/tabular.git'
-Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/syntastic.git'
-Plugin 'tomtom/tcomment_vim'
+" Tim Pope goodness
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-endwise.git'
-Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
+
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+
+" Transition between single and multi line statements
+Plugin 'AndrewRadev/splitjoin.vim.git'
+
+" Quick movement using hints
+Plugin 'Lokaltog/vim-easymotion.git'
+
+" Movements for function arguments
+Plugin 'PeterRincker/vim-argumentative.git'
+
+" Alignment plugin
+Plugin 'godlygeek/tabular.git'
+
+" Fuzzy file search
+Plugin 'kien/ctrlp.vim'
+
+" On the fly syntax checking
+Plugin 'scrooloose/syntastic.git'
+
+" Commenting
+Plugin 'tomtom/tcomment_vim'
 
 " Clojure
 Plugin 'guns/vim-clojure-static'
