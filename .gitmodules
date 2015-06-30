@@ -10,3 +10,15 @@
 	path = home/.vim/bundle/Vundle.vim
 	url = https://github.com/gmarik/Vundle.vim
 	branch = master
+[submodule "home/.oh-my-zsh.custom/plugins/alias-tips"]
+	path = home/.oh-my-zsh.custom/plugins/alias-tips
+	url = https://github.com/djui/alias-tips.git
+	branch = master
+[submodule "home/.oh-my-zsh.custom/plugins/bd"]
+	path = home/.oh-my-zsh.custom/plugins/bd
+	url = https://github.com/Tarrasch/zsh-bd.git
+	branch = master
+[submodule "home/.oh-my-zsh.custom/plugins/zsh-256color"]
+	path = home/.oh-my-zsh.custom/plugins/zsh-256color
+	url = https://github.com/chrissicool/zsh-256color.git
+	branch = master
