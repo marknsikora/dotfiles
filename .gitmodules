@@ -2,14 +2,6 @@
 	path = home/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 	branch = master
-[submodule "prelude"]
-	path = prelude
-	url = https://github.com/bbatsov/prelude.git
-	branch = master
-[submodule "home/.vim/bundle/Vundle.vim"]
-	path = home/.vim/bundle/Vundle.vim
-	url = https://github.com/gmarik/Vundle.vim
-	branch = master
 [submodule "home/.oh-my-zsh.custom/plugins/alias-tips"]
 	path = home/.oh-my-zsh.custom/plugins/alias-tips
 	url = https://github.com/djui/alias-tips.git
@@ -21,4 +13,12 @@
 [submodule "home/.oh-my-zsh.custom/plugins/zsh-256color"]
 	path = home/.oh-my-zsh.custom/plugins/zsh-256color
 	url = https://github.com/chrissicool/zsh-256color.git
+	branch = master
+[submodule "home/.vim/bundle/Vundle.vim"]
+	path = home/.vim/bundle/Vundle.vim
+	url = https://github.com/gmarik/Vundle.vim
+	branch = master
+[submodule "prelude"]
+	path = prelude
+	url = https://github.com/bbatsov/prelude.git
 	branch = master
