@@ -16,7 +16,7 @@
 	branch = master
 [submodule "home/.vim/bundle/Vundle.vim"]
 	path = home/.vim/bundle/Vundle.vim
-	url = https://github.com/gmarik/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
 	branch = master
 [submodule "prelude"]
 	path = prelude
