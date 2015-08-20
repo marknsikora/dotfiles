@@ -33,9 +33,6 @@ Plugin 'godlygeek/tabular.git'
 " Fuzzy file search
 Plugin 'kien/ctrlp.vim'
 
-" On the fly syntax checking
-Plugin 'scrooloose/syntastic.git'
-
 " Commenting
 Plugin 'tomtom/tcomment_vim'
 
