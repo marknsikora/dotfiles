@@ -8,6 +8,9 @@ call vundle#begin()
 " Good defaults
 Plugin 'tpope/vim-sensible'
 
+" Up to date language pack
+Plugin 'sheerun/vim-polyglot'
+
 " Tim Pope goodness
 Plugin 'tpope/vim-abolish'
 Plugin 'tpope/vim-endwise.git'
