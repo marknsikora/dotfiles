@@ -22,3 +22,7 @@
 	path = prelude
 	url = https://github.com/bbatsov/prelude.git
 	branch = master
+[submodule "spacemacs"]
+	path = spacemacs
+	url = https://github.com/syl20bnr/spacemacs.git
+	branch = master
