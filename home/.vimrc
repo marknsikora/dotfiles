@@ -64,6 +64,7 @@ if has('gui_running')
     set background=dark
     colorscheme solarized
     set guifont=DejaVu\ Sans\ Mono\ 12
+    set lines=43 columns=132
 endif
 
 " Numbered lines.
