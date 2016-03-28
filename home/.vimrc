@@ -44,7 +44,8 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-sexp'
 
 " Powerline
-Plugin 'bling/vim-airline.git'
+Plugin 'vim-airline/vim-airline.git'
+Plugin 'vim-airline/vim-airline-themes.git'
 let g:airline_theme='powerlineish'
 let g:airline_left_sep=''
 let g:airline_right_sep=''
