@@ -30,14 +30,6 @@ Plugin 'godlygeek/tabular.git'
 " Commenting
 Plugin 'tomtom/tcomment_vim'
 
-" Powerline
-Plugin 'vim-airline/vim-airline.git'
-Plugin 'vim-airline/vim-airline-themes.git'
-let g:airline_theme='powerlineish'
-let g:airline_left_sep=''
-let g:airline_right_sep=''
-let g:airline_section_z=''
-
 " Color schemes
 Plugin 'chriskempson/base16-vim'
 Plugin 'tomasr/molokai'
@@ -57,8 +49,16 @@ endif
 " Numbered lines.
 set number
 
-" Powerbar settings
-set noshowmode
+" Statusline
+set statusline=
+set statusline+=\ [%n]         "buffernr
+set statusline+=\ %<%f         "File+path
+set statusline+=%m%r%w         "Modified? Readonly?
+set statusline+=\ %y           "FileType
+set statusline+=%=             "Separation point
+set statusline+=\ row:%l/%L    "Rownumber/total
+set statusline+=\ col:%c       "Colnum
+set statusline+=\ %P\          "Top/bot.
 
 " Tab settings.
 set expandtab
