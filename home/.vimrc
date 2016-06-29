@@ -21,27 +21,14 @@ Plugin 'tpope/vim-unimpaired'
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
 
-" Transition between single and multi line statements
-Plugin 'AndrewRadev/splitjoin.vim.git'
-
 " Quick movement using hints
 Plugin 'Lokaltog/vim-easymotion.git'
-
-" Movements for function arguments
-Plugin 'PeterRincker/vim-argumentative.git'
 
 " Alignment plugin
 Plugin 'godlygeek/tabular.git'
 
-" Fuzzy file search
-Plugin 'kien/ctrlp.vim'
-
 " Commenting
 Plugin 'tomtom/tcomment_vim'
-
-" Clojure
-Plugin 'tpope/vim-fireplace'
-Plugin 'guns/vim-sexp'
 
 " Powerline
 Plugin 'vim-airline/vim-airline.git'
