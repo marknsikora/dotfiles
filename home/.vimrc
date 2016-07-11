@@ -25,10 +25,10 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/vim-easymotion.git'
 
 " Alignment plugin
-Plugin 'godlygeek/tabular.git'
+Plugin 'tommcdo/vim-lion'
 
 " Commenting
-Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-commentary'
 
 " Color schemes
 Plugin 'chriskempson/base16-vim'
