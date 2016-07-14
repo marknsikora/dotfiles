@@ -13,8 +13,10 @@ Plugin 'sheerun/vim-polyglot'
 
 " Tim Pope goodness
 Plugin 'tpope/vim-abolish'
-Plugin 'tpope/vim-endwise.git'
+Plugin 'tpope/vim-eunuch'
+Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-rsi'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-unimpaired'
 
