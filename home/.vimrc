@@ -33,6 +33,9 @@ Plugin 'tommcdo/vim-lion'
 " Commenting
 Plugin 'tpope/vim-commentary'
 
+" Highlight annoying whitespace
+Plugin 'ntpeters/vim-better-whitespace'
+
 " Color schemes
 Plugin 'chriskempson/base16-vim'
 Plugin 'tomasr/molokai'
@@ -66,16 +69,6 @@ set statusline+=\ %P\          "Top/bot.
 " Tab settings.
 set expandtab
 set shiftwidth=4
-
-" Make trailing whitespace annoyingly highlighted.
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
-autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
-autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-autocmd InsertLeave * match ExtraWhitespace /\s\+$/
-if v:version >= 702
-    autocmd BufWinLeave * call clearmatches()
-endif
 
 " Search settings
 set ignorecase
