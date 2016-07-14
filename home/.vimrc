@@ -22,7 +22,8 @@ Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-fugitive'
 
 " Quick movement using hints
-Plugin 'Lokaltog/vim-easymotion.git'
+Plugin 'justinmk/vim-sneak'
+let g:sneak#streak = 1
 
 " Alignment plugin
 Plugin 'tommcdo/vim-lion'
