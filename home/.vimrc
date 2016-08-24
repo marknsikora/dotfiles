@@ -37,17 +37,17 @@ Plugin 'tpope/vim-commentary'
 Plugin 'ntpeters/vim-better-whitespace'
 
 " Color schemes
-Plugin 'chriskempson/base16-vim'
-Plugin 'tomasr/molokai'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'chriskempson/base16-vim'
+Plugin 'jnurmine/Zenburn'
+Plugin 'tomasr/molokai'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 " GUI Settings
+colorscheme zenburn
 if has('gui_running')
-    set background=dark
-    colorscheme solarized
     set guifont=DejaVu\ Sans\ Mono\ 12
     set lines=43 columns=132
 endif
