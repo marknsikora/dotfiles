@@ -46,7 +46,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 " GUI Settings
-colorscheme zenburn
+silent! colorscheme zenburn
 if has('gui_running')
     set guifont=DejaVu\ Sans\ Mono\ 12
     set lines=43 columns=132
