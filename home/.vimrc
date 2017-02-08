@@ -85,6 +85,11 @@ if exists('+clipboard')
     endif
 endif
 
+" Mouse support in term
+if exists('+mouse')
+    set mouse=a
+endif
+
 " Per-directory .vimrc files
 set exrc
 set secure
