@@ -28,8 +28,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'ajh17/VimCompletesMe'
 
 " Quick movement using hints
+let g:sneak#label = 1
 Plugin 'justinmk/vim-sneak'
-let g:sneak#streak = 1
 
 " Alignment plugin
 Plugin 'tommcdo/vim-lion'
