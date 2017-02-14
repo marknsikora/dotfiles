@@ -24,6 +24,9 @@ Plugin 'tpope/vim-vinegar'
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
 
+" Tab completion
+Plugin 'ajh17/VimCompletesMe'
+
 " Quick movement using hints
 Plugin 'justinmk/vim-sneak'
 let g:sneak#streak = 1
