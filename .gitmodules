@@ -14,10 +14,6 @@
 	path = home/.oh-my-zsh.custom/plugins/zsh-256color
 	url = https://github.com/chrissicool/zsh-256color.git
 	branch = master
-[submodule "home/.vim/bundle/Vundle.vim"]
-	path = home/.vim/bundle/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim.git
-	branch = master
 [submodule "prelude"]
 	path = prelude
 	url = https://github.com/bbatsov/prelude.git
