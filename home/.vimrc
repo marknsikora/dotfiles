@@ -31,6 +31,10 @@ Plug 'ajh17/VimCompletesMe'
 " Manage ctags
 Plug 'ludovicchabant/vim-gutentags'
 
+" Quickfix improvements
+Plug 'romainl/vim-qf'
+Plug 'romainl/vim-qlist'
+
 " Quick movement using hints
 let g:sneak#label = 1
 Plug 'justinmk/vim-sneak'
