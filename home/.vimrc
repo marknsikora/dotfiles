@@ -9,6 +9,9 @@ call plug#begin('~/.vim/bundle')
 " Good defaults
 Plug 'tpope/vim-sensible'
 
+" Required libraries
+Plug 'tomtom/tlib_vim'
+
 " Up to date language pack
 Plug 'sheerun/vim-polyglot'
 
@@ -30,6 +33,9 @@ Plug 'ajh17/VimCompletesMe'
 
 " Manage ctags
 Plug 'ludovicchabant/vim-gutentags'
+
+" Ctag helpters
+Plug 'tomtom/ttags_vim'
 
 " Quickfix improvements
 Plug 'romainl/vim-qf'
