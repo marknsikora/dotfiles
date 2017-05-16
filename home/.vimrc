@@ -28,6 +28,9 @@ Plug 'tpope/vim-fugitive'
 " Tab completion
 Plug 'ajh17/VimCompletesMe'
 
+" Manage ctags
+Plug 'ludovicchabant/vim-gutentags'
+
 " Quick movement using hints
 let g:sneak#label = 1
 Plug 'justinmk/vim-sneak'
