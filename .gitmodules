@@ -1,0 +1,12 @@
+[submodule "oh-my-zsh/.oh-my-zsh"]
+	path = oh-my-zsh/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+	branch = master
+[submodule "prelude/.emacs.d"]
+	path = prelude/.emacs.d
+	url = https://github.com/bbatsov/prelude.git
+	branch = master
+[submodule "spacemacs/.emacs.d"]
+	path = spacemacs/.emacs.d
+	url = https://github.com/syl20bnr/spacemacs.git
+	branch = master
