@@ -1,1 +1,0 @@
-../../../../spacemacs/private/snippets/README.md
