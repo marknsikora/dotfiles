@@ -108,6 +108,11 @@ if exists('+mouse')
     set mouse=a
 endif
 
+" Use Ag over Grep
+if executable('ag')
+  set grepprg=ag\ --nogroup\ --nocolor
+endif
+
 " Per-directory .vimrc files
 set exrc
 set secure
