@@ -66,6 +66,8 @@ call plug#end()
 silent! colorscheme zenburn
 if has('gui_running')
     set guifont=DejaVu\ Sans\ Mono\ 12
+    set guioptions-=m
+    set guioptions-=T
     set lines=43 columns=132
 endif
 
