@@ -1,0 +1,9 @@
+[user]
+	name = Mark Sikora
+	email = marknsikora@gmail.com
+[push]
+	default = simple
+[core]
+	excludesfile = ~/.gitignore_global
+[credential]
+	helper = cache
