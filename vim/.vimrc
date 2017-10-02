@@ -42,7 +42,6 @@ Plug 'romainl/vim-qf'
 Plug 'romainl/vim-qlist'
 
 " Quick movement using hints
-let g:sneak#label = 1
 Plug 'justinmk/vim-sneak'
 
 " Alignment plugin
