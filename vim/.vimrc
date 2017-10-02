@@ -15,6 +15,9 @@ Plug 'tomtom/tlib_vim'
 " Up to date language pack
 Plug 'sheerun/vim-polyglot'
 
+" Add additional text targets
+Plug 'wellle/targets.vim'
+
 " Tim Pope goodness
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-eunuch'
