@@ -49,6 +49,7 @@ Plug 'justinmk/vim-sneak'
 
 " Alignment plugin
 Plug 'tommcdo/vim-lion'
+let g:lion_squeeze_spaces = 1
 
 " Commenting
 Plug 'tpope/vim-commentary'
