@@ -1,0 +1,7 @@
+!
+! xterm
+!
+xterm*faceName: DejaVu Sans Mono:size=10
+xterm*locale: true
+xterm*utf8: 1
+xterm*cursorBlink: true
