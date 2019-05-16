@@ -31,6 +31,10 @@ Plug 'tpope/vim-fugitive'
 " Tab completion
 Plug 'ajh17/VimCompletesMe'
 
+" Fuzzy finder
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+
 " Manage ctags
 Plug 'ludovicchabant/vim-gutentags'
 
