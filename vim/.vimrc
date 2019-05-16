@@ -55,6 +55,9 @@ let g:lion_squeeze_spaces = 1
 " Commenting
 Plug 'tpope/vim-commentary'
 
+" Undotree
+Plug 'mbbill/undotree'
+
 " Highlight annoying whitespace
 Plug 'ntpeters/vim-better-whitespace'
 
