@@ -94,6 +94,37 @@ set ignorecase
 set smartcase
 set hlsearch
 
+" Leader
+let mapleader=' '
+
+" nnoremap <leader>p :find *
+" nnoremap <leader>r :let cmds = input('command: ') \| call system('tmux send-keys -t +1 "' . cmds . '" Enter')<cr>
+" nnoremap <leader>R :call system('tmux split -v -p 20\; last-pane')<cr>
+" nnoremap <leader>" :split<cr>
+" nnoremap <leader>t :ltag<space>/ \| lop<left><left><left><left><left><left>
+" nnoremap <leader>% :vsplit<cr>
+" nnoremap <leader>x :TxSigInt!<cr>
+" nnoremap <leader>z :call ToggleFolds()<cr>
+
+nnoremap <leader>; :
+nnoremap <leader>A :argadd **/*
+nnoremap <leader>a :argadd <c-r>=fnameescape(expand('%:p:h'))<cr>/*<C-d>
+nnoremap <leader>B :ls<cr>:b<space>
+nnoremap <leader>b :b <C-d>
+nnoremap <leader>c <esc>:close<cr>
+nnoremap <leader>e :e <c-r>=fnameescape(expand('%:p:h'))<cr>/*<C-d>
+nnoremap <leader>f :Files<cr>
+nnoremap <leader>G :grep <c-r><c-w><cr>
+nnoremap <leader>g :grep<space>
+nnoremap <leader>i :Ilist<space>
+nnoremap <leader>L :lgrep <c-r><c-w><cr>
+nnoremap <leader>l :lgrep<space>
+nnoremap <leader>m :make<cr>
+nnoremap <leader>o <c-w>o
+nnoremap <leader>q :b#<cr>
+nnoremap <leader>w <c-w>w
+nnoremap <leader>W <c-w>W
+
 " Enable clipboard support
 if exists('+clipboard')
     if v:version >= 704 || (v:version == 703 && has('patch74'))
