@@ -37,7 +37,7 @@ Plug 'ajh17/VimCompletesMe'
 " Manage ctags
 Plug 'ludovicchabant/vim-gutentags'
 
-" Ctag helpters
+" Ctag helpers
 Plug 'tomtom/ttags_vim'
 
 " Quickfix improvements
