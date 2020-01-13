@@ -58,6 +58,9 @@ Plug 'tpope/vim-commentary'
 " Undotree
 Plug 'mbbill/undotree'
 
+" Preview substitutions
+Plug 'markonm/traces.vim'
+
 " Highlight annoying whitespace
 Plug 'ntpeters/vim-better-whitespace'
 
