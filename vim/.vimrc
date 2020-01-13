@@ -15,13 +15,15 @@ Plug 'tomtom/tlib_vim'
 " Add additional text targets
 Plug 'wellle/targets.vim'
 
+" Better surround plugin
+Plug 'machakann/vim-sandwich'
+
 " Tim Pope goodness
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-eunuch'
 Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-rsi'
-Plug 'tpope/vim-surround'
 Plug 'tpope/vim-unimpaired'
 Plug 'tpope/vim-vinegar'
 
