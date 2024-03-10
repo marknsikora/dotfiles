@@ -4,6 +4,8 @@ if empty(glob('~/.vim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+let g:plug_shallow = 0
+
 call plug#begin('~/.vim/bundle')
 
 " Good defaults
@@ -21,6 +23,8 @@ Plug 'wellle/targets.vim'
 " Better surround plugin
 Plug 'machakann/vim-sandwich'
 
+Plug 'justinmk/vim-dirvish'
+
 " Tim Pope goodness
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-eunuch'
@@ -28,7 +32,6 @@ Plug 'tpope/vim-endwise'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-rsi'
 Plug 'tpope/vim-unimpaired'
-Plug 'tpope/vim-vinegar'
 
 " Git wrapper
 Plug 'tpope/vim-fugitive'
@@ -78,9 +81,10 @@ Plug 'tomasr/molokai'
 call plug#end()
 
 " GUI Settings
+" set termguicolors
 silent! colorscheme zenburn
 if has('gui_running')
-    set guifont=DejaVu\ Sans\ Mono\ 12
+    set guifont=Fira\ Code\ 12
     set guioptions-=m
     set guioptions-=T
     set lines=43 columns=132
@@ -162,3 +166,6 @@ endif
 " Per-directory .vimrc files
 set exrc
 set secure
+
+" Sometimes writing to disk breaks display
+autocmd BufWritePost * redraw!
