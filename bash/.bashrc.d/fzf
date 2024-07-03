@@ -1,0 +1,11 @@
+if [ -e "/usr/share/fzf/key-bindings.bash" ]; then
+    . /usr/share/fzf/key-bindings.bash
+elif [ -e "/usr/share/doc/fzf/examples/key-bindings.bash" ]; then
+    . /usr/share/doc/fzf/examples/key-bindings.bash
+fi
+
+if [ -e "/usr/share/fzf/completion.bash" ]; then
+    . /usr/share/fzf/completion.bash
+elif [ -e "/usr/share/bash-completion/completions/fzf" ]; then
+    . /usr/share/bash-completion/completions/fzf
+fi
