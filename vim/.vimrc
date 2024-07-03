@@ -42,9 +42,6 @@ Plug 'ajh17/VimCompletesMe'
 " Fuzzy finder
 Plug 'junegunn/fzf.vim'
 
-" Manage ctags
-Plug 'ludovicchabant/vim-gutentags'
-
 " Ctag helpers
 Plug 'tomtom/ttags_vim'
 
